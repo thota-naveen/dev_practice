@@ -1,0 +1,33 @@
+*{
+    background: #4ef091;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.image{
+    padding: 1px;
+    display: inline-block;
+    position: relative;
+    margin-left: 40vw;
+    /* border:1px solid rgb(54, 52, 52); */
+    box-shadow: 10px 10px #000000
+    /* box-shadow: 10px 10px #40c46c; */
+}
+.image:hover{
+    box-shadow: 10px 10px #127e36;
+}
+.desc{
+    font-style: italic;
+    border: 3px solid rgb(43, 37, 37);
+    border-style: double;
+    width: 70%;
+    padding: 10px;
+    margin-left: 175px;
+    margin-top: 20px;
+    box-shadow: 10px 10px #000000
+}
+.desc:hover{
+    box-shadow: 10px 10px #127e36;
+    /* margin-top: 20px; */
+}
